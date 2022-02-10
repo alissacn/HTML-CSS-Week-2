@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica";
+}
+
+/*Header*/
+a {
+  text-decoration: none;
+  color: #f5f5f7;
+}
+
+header {
+  background-color: #1d1d1f;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 12px;
+  height: 44px;
+}
