@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica";
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
 }
 
 /*Header*/
@@ -127,6 +128,13 @@ nav ul {
   color: #66023c;
 }
 
+/*multi section*/
+.multi-section {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-position: center;
+}
+
 /*Watch artcile*/
 #watch {
   background-image: url("images/watch.jpg");
@@ -227,4 +235,100 @@ nav ul {
 
 #heart-watch h1 {
   font-size: 38px;
+}
+
+/*Future article*/
+
+#future-article {
+  background-image: url("images/future.watch.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  width: 100%;
+  height: 680px;
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  align-items: center;
+  line-height: 1.8;
+}
+
+#future-article h1 {
+  color: white;
+  font-size: 38px;
+}
+
+#future-article p {
+  color: white;
+  font-size: 20px;
+}
+
+/*Fitness article*/
+#fitness-article {
+  background-image: url("images/fitness.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  width: 100%;
+  height: 680px;
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  align-items: center;
+  line-height: 1.8;
+}
+
+#fitness-article h1 {
+  font-size: 38px;
+}
+
+#fitness-article p {
+  font-size: 20px;
+}
+
+/*Sospechosos article*/
+#sospechoso-article {
+  background-image: url("images/sospechoso.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  width: 100%;
+  height: 680px;
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  align-items: center;
+  line-height: 1.8;
+}
+
+#sospechoso-article h2 {
+  color: white;
+  font-size: 20px;
+}
+
+#sospechoso-article h1 {
+  font-size: 38px;
+  color: white;
+}
+
+/*footer*/
+.footer {
+  background-color: #f5f5f7;
+  color: #6e6e73;
+  font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons";
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+  color: #6e6e73;
 }
