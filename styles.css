@@ -43,23 +43,23 @@ nav ul {
   line-height: 1.8;
 }
 
-#div-link a {
+#div-link {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.div-link a {
   text-decoration: none;
   color: #06c;
   display: flex;
   font-size: 20px;
 }
 
-#div-link {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-#h1-pro {
+#iphone13pro h1 {
   font-size: 50px;
 }
 
-#p-iphone-pro {
+#iphone13pro {
   font-size: 25px;
 }
 
@@ -80,13 +80,6 @@ nav ul {
   line-height: 1.8;
 }
 
-.div-link a {
-  text-decoration: none;
-  color: #06c;
-  display: flex;
-  font-size: 20px;
-}
-
 .div-link {
   display: flex;
   justify-content: space-evenly;
@@ -101,7 +94,7 @@ nav ul {
   color: #ffb3de;
 }
 
-/*Valentine´s day*/
+/*Valentine Section*/
 #valentine {
   background-image: url("images/valentine-photo.jpg");
   background-repeat: no-repeat;
@@ -118,13 +111,6 @@ nav ul {
   line-height: 1.8;
 }
 
-.div-link a {
-  text-decoration: none;
-  color: #06c;
-  display: flex;
-  font-size: 20px;
-}
-
 #div-link {
   display: flex;
   justify-content: space-evenly;
@@ -139,4 +125,106 @@ nav ul {
 #valentine p {
   font-size: 25px;
   color: #66023c;
+}
+
+/*Watch artcile*/
+#watch {
+  background-image: url("images/watch.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  width: 100%;
+  height: 680px;
+  display: flex;
+  margin-bottom: 5px;
+  flex-direction: column;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  align-items: center;
+  line-height: 1.8;
+}
+
+#watch-link a {
+  color: #943126;
+  text-decoration: none;
+  display: flex;
+  font-size: 13px;
+}
+
+#watch h1 {
+  font-size: 40px;
+}
+
+#watch h2 {
+  font-size: 20px;
+  color: #e74c3c;
+}
+
+#watch p {
+  font-size: 20px;
+}
+
+/*Shot Phone Artcile*/
+#shot-article {
+  background-image: url("images/shotjpg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  width: 100%;
+  height: 680px;
+  display: flex;
+  margin-bottom: 5px;
+  flex-direction: column;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  align-items: center;
+  line-height: 1.8;
+}
+
+#shot-article h1 {
+  font-size: 38px;
+}
+
+#shot-article p {
+  font-size: 20px;
+}
+
+#shot-article div a {
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  color: black;
+}
+
+/*Heart watch Artcile*/
+#heart-watch {
+  background-image: url("images/t3.watch.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  width: 100%;
+  height: 680px;
+  display: flex;
+  margin-bottom: 5px;
+  flex-direction: column;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  align-items: center;
+  line-height: 1.8;
+}
+
+#small-link a {
+  font-size: 13px;
+  color: #943126;
+  text-decoration: none;
+  display: flex;
+}
+
+#heart-watch p {
+  font-size: 20px;
+  text-align: center;
+}
+
+#heart-watch h1 {
+  font-size: 38px;
 }
