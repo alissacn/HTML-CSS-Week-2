@@ -48,22 +48,21 @@ nav ul {
   align-items: center;
   line-height: 1.8;
 }
-}
-
-#div-link {
-  display: flex;
-  justify-content: space-evenly;
-}
 
 .div-link a {
   text-decoration: none;
+  justify-content: space-evenly;
   color: #06c;
   display: flex;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 #iphone13pro h1 {
   font-size: 50px;
+}
+
+#iphone13pro p {
+  padding-top: 1px;
 }
 
 #iphone13pro {
@@ -88,7 +87,7 @@ nav ul {
   line-height: 1.8;
 }
 
-.div-link {
+.div-link a {
   display: flex;
   justify-content: space-evenly;
 }
@@ -120,8 +119,8 @@ nav ul {
   line-height: 1.8;
 }
 
-#div-link {
-  display: flex;
+#div-link a {
+  display: inline;
   justify-content: space-evenly;
 }
 
@@ -309,10 +308,11 @@ nav ul {
   height: 450px;
   display: flex;
   margin-bottom: 10px;
-  padding-top: 35px;
+  padding-top: 250px;
   padding-bottom: 5px;
   align-items: center;
   line-height: 1.8;
+  flex-direction: column;
 }
 
 #sospechoso-article h2 {
@@ -322,6 +322,10 @@ nav ul {
 
 #sospechoso-article h1 {
   font-size: 38px;
+  color: white;
+}
+
+#sospechoso-article p {
   color: white;
 }
 
@@ -343,27 +347,32 @@ nav ul {
 
 /*Medias Querie Mobile*/
 @media screen and (max-width: 600px) {
-    #watch,
-    #shot-article,
-    #heart-watch,
-    #future-article,
-    #fitness-article,
-    #sospechoso-article {
-        width: 100%;
-        background-position: center;
-    }
-}
-
-/*Medias Querie Tablet*/
-@media screen and (min-width:768px) and (max-width:1024px) {
   #watch,
   #shot-article,
   #heart-watch,
   #future-article,
   #fitness-article,
   #sospechoso-article {
-      width: 50%;
-      background-position: center;
+    width: 100%;
+    background-position: center;
   }
 }
 
+@media screen and (max-width: 600px) {
+  #nav-header {
+    display: none;
+  }
+}
+
+/*Medias Querie Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #watch,
+  #shot-article,
+  #heart-watch,
+  #future-article,
+  #fitness-article,
+  #sospechoso-article {
+    width: 50%;
+    background-position: center;
+  }
+}
