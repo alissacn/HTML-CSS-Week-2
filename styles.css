@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
 }
@@ -9,6 +10,10 @@
 #fa title {
   font-size: 10px;
   color: #6e6e73;
+}
+
+#apple-icon {
+  width: 30px;
 }
 
 /*Header*/
@@ -46,14 +51,12 @@ nav ul {
   padding-top: 35px;
   padding-bottom: 5px;
   align-items: center;
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 .div-link a {
   text-decoration: none;
-  justify-content: space-evenly;
   color: #06c;
-  display: flex;
   font-size: 17px;
 }
 
@@ -160,7 +163,7 @@ nav ul {
   line-height: 1.8;
 }
 
-#watch-link a {
+.watch-link a {
   color: #943126;
   text-decoration: none;
   display: flex;
@@ -168,16 +171,22 @@ nav ul {
 }
 
 #watch h1 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #watch h2 {
-  font-size: 20px;
+  font-size: 16px;
   color: #e74c3c;
 }
 
 #watch p {
-  font-size: 20px;
+  font-size: 16px;
+}
+
+.link-botton a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #06c;
 }
 
 /*Shot Phone Artcile*/
@@ -198,15 +207,15 @@ nav ul {
 }
 
 #shot-article h1 {
-  font-size: 38px;
+  font-size: 32px;
 }
 
 #shot-article p {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #shot-article div a {
-  font-size: 16px;
+  font-size: 13px;
   text-decoration: none;
   display: flex;
   color: black;
@@ -237,12 +246,17 @@ nav ul {
 }
 
 #heart-watch p {
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
 }
 
 #heart-watch h1 {
-  font-size: 38px;
+  font-size: 32px;
+}
+
+#heart-watch-link a {
+  font-size: 13px;
+  text-decoration: none;
 }
 
 /*Future article*/
@@ -265,12 +279,17 @@ nav ul {
 
 #future-article h1 {
   color: white;
-  font-size: 38px;
+  font-size: 32px;
 }
 
 #future-article p {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
+}
+
+.future-link a {
+  font-size: 13px;
+  text-decoration: none;
 }
 
 /*Fitness article*/
@@ -284,18 +303,24 @@ nav ul {
   display: flex;
   margin-bottom: 10px;
   flex-direction: column;
-  padding-top: 35px;
-  padding-bottom: 5px;
+  padding-top: 15px;
+  padding-bottom: 10px;
   align-items: center;
   line-height: 1.8;
 }
 
 #fitness-article h1 {
-  font-size: 38px;
+  font-size: 32px;
 }
 
 #fitness-article p {
-  font-size: 20px;
+  font-size: 17px;
+  text-align: center;
+}
+
+#fitness-link a {
+  font-size: 13px;
+  text-decoration: none;
 }
 
 /*Sospechosos article*/
@@ -327,6 +352,11 @@ nav ul {
 
 #sospechoso-article p {
   color: white;
+}
+
+#serie-link a {
+  font-size: 13px;
+  text-decoration: none;
 }
 
 /*footer*/
